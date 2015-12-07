@@ -2,7 +2,7 @@
 The Monkshu Project - Starter App
 Monkshu - The HTML5/REST/JSON/Node.js/API Application Server
 ================================================================
-An empty starter app for the Monsku application server.
+An empty starter app for the Monsku application server, aka - Hello World.
 
 Login password
 ==============
