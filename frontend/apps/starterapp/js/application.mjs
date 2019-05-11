@@ -10,7 +10,7 @@ import {securityguard} from "/framework/js/securityguard.mjs";
 const init = async _ => {
 	window.APP_CONSTANTS = (await import ("./constants.mjs")).APP_CONSTANTS;
 	window.LOG = (await import ("/framework/js/log.mjs")).LOG;
-	if (!session.get(APP_CONSTANTS.LANG_ID)) session.set(APP_CONSTANTS.LANG_ID, "en");
+	if (!session.get($$.MONKSHU_CONSTANTS.LANG_ID.LANG_ID)) session.set($$.MONKSHU_CONSTANTS.LANG_ID.LANG_ID, "en");
 	securityguard.setPermissionsMap(APP_CONSTANTS.PERMISSIONS_MAP);
 	securityguard.setCurrentRole(securityguard.getCurrentRole() || APP_CONSTANTS.GUEST_ROLE);
 }
@@ -19,8 +19,8 @@ const main = async _ => {
 	let location = window.location.href;
 	if (!router.isInHistory(location) || !session.get(APP_CONSTANTS.USERID))
 		router.loadPage(APP_CONSTANTS.LOGIN_THTML);
-	else 
-		router.loadPage(location);
+	else if (router.decodeURL(location) == session.get($$.MONKSHU_CONSTANTS.PAGE_URL)) router.reload();
+	else router.loadPage(location);
 }
 
 export const application = {init, main};
