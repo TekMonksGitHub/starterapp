@@ -1,0 +1,4 @@
+{
+    "/apps/starterapp/login" : "/apis/login.js?get=true",
+    "/apps/starterapp/register" : "/apis/register.js"
+}

@@ -1,15 +1,14 @@
-﻿# starterapp
-The Monkshu Project - Starter App
-Monkshu - The HTML5/REST/JSON/Node.js/API Application Server
-================================================================
-An empty starter app for the Monsku application server, aka - Hello World. No backend services, just HTML5 base code.
+# starterapp
+Monkshu starter app. Base scaffolding plus login capabilities.
 
-Login password
-==============
-Login ID: Hello
+Getting Started
+===============
+Step 1: Download the Monkshu server https://github.com/TekMonks/monkshu.git  
+Step 2: Unzip this app on top of the previous download's root folder  
+Step 3: Start frontend using <monkshu>/frontend/server/server.sh  
+Step 4: Start backed using <monkshu>/backed/server/server.sh  
+Step 5: Browse to http://<your IP>:8080/apps/starterapp/index.html  
 
-Login Password: 123
-
-Add Header set Access-Control-Allow-Origin [your frontend] to resolve cross-origin errors.
-
-
+Optional Step
+=============
+Modify /frontend/framework/conf/default_app.json to "starterapp" and then http://<your IP>:8080 should auto redirect.
