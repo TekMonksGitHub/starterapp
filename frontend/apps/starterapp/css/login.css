@@ -8,17 +8,12 @@ body {
 	0% 0% fixed no-repeat;
 }
 
-@font-face {
-    font-family: corbert;
-    src: url(/framework/fonts/Corbert-Regular.otf);
-}
-
 button {
     background: #34aadc;
 	border: none;
     color: white;
     display: inline-block;
-    font-family: corbert;
+    font-family: arial;
     font-size: 16px;
     padding: 4.8% 15px;
     margin: 15px;
@@ -54,7 +49,7 @@ button:active {
 }
 
 .langsel {
-	font-family: corbert;
+	font-family: arial;
 	cursor: pointer;
 	font-size: 11px;
 }
@@ -86,7 +81,7 @@ button:active {
 	position: relative;
 	padding: 3px;
 	margin-left: 6%;
-	font:12px corbert;
+	font:12px arial;
 	color: red;
 	text-align: left;
 	visibility: hidden;
@@ -96,7 +91,7 @@ button:active {
 	position: absolute;
 	padding: 3px;
 	margin-left: 6%;
-	font:12px corbert;
+	font:12px arial;
 	color: red;
 	text-align: left;
 	top: 100%;
@@ -107,7 +102,7 @@ button:active {
 	position: absolute;
 	padding: 3px;
 	margin-left: 57%;
-	font:12px corbert;
+	font:12px arial;
 	color: red;
 	text-align: left;
 	top: 100%;
@@ -117,7 +112,7 @@ button:active {
 .inputbox {
 	outline: none;
     border: none;
-    font: 16px corbert;
+    font: 16px arial;
     padding: 5px;
     color: #000000;
     margin-left: 25px;
@@ -132,7 +127,7 @@ button:active {
 .errorbox {
 	outline: none;
 	border: none;
-    font: 16px corbert;
+    font: 16px arial;
     padding: 5px;
     color: #000000;
     margin-left: 25px;

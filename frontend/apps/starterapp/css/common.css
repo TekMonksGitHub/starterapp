@@ -3,11 +3,6 @@
  * License: GPL2 - see enclosed license.txt file.
  */
 
-@font-face {
-    font-family: corbert;
-    src: url(/framework/fonts/Corbert-Regular.otf);
-}
-
 #navbar {
     left: 0;
     position: fixed;
@@ -28,7 +23,6 @@
 	padding: 6px 4px;
 	text-decoration: none;
 	font-size: 16px;
-	font-family: corbert;
 	color: #FFFFFF;
 	cursor: pointer;
 }
@@ -39,7 +33,6 @@
 	padding: 6px 4px 6px 40px;
 	text-decoration: none;
 	font-size: 16px;
-	font-family: corbert;
 	color: #FFFFFF;
 }
 
@@ -49,7 +42,6 @@
 	padding: 6px 2px;
 	text-decoration: none;
 	font-size: 16px;
-	font-family: orbitron;
 	color: #FFFFFF; 
 	cursor: pointer;
 }
@@ -60,7 +52,6 @@
 	padding: 6px 10px;
 	text-decoration: none;
 	font-size: 16px;
-	font-family: corbert;
 	color: #FFFFFF; 
 	cursor: pointer;
 }

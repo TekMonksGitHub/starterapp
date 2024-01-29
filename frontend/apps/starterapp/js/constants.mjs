@@ -2,9 +2,10 @@
  * (C) 2015 TekMonks. All rights reserved.
  * License: MIT - see enclosed license.txt file.
  */
-const FRONTEND = "http://localhost:8080";
-const BACKEND = "http://localhost:9090";
-const APP_PATH = `${FRONTEND}/apps/starterapp`;
+const FRONTEND = "https://{{{hostname}}}";
+const BACKEND = "https://{{{hostname}}}:9090";
+const APP_NAME = "starterapp";
+const APP_PATH = `${FRONTEND}/apps/${APP_NAME}`;
 
 export const APP_CONSTANTS = {
     FRONTEND, BACKEND, APP_PATH,
