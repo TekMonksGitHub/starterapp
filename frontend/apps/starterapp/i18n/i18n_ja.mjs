@@ -1,5 +1,5 @@
 export const i18n = {
-    "Title" : "モンクシュー空のアプリケーション",
+    "Title" : APP_CONSTANTS.APP_NAME,
     "Logout" : "ログアウト",
     "UserID" : "ログイン",
     "DesiredUserID" : "新しいログイン",

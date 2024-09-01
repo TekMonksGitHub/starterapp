@@ -1,5 +1,5 @@
 export const i18n = {
-    "Title" : "मोंकशु खाली अप्प",
+    "Title" : APP_CONSTANTS.APP_NAME,
     "Logout" : "बाहर निकलें",
     "UserID" : "आपकी आईडी",
     "DesiredUserID" : "नई आईडी",

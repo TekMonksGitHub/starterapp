@@ -8,7 +8,7 @@ const APP_NAME = $$.getRootAppName();
 const APP_PATH = `${FRONTEND}/apps/${APP_NAME}`;
 
 export const APP_CONSTANTS = {
-    FRONTEND, BACKEND, APP_PATH,
+    FRONTEND, BACKEND, APP_PATH, APP_NAME,
     MAIN_THTML: APP_PATH+"/main.html",
     LOGIN_THTML: APP_PATH+"/login.html",
 
