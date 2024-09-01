@@ -1,4 +1,7 @@
-/* 
+/**
+ * The new user registration API.
+ * 
+ * License: See enclosed LICENSE file.
  * (C) 2015 TekMonks. All rights reserved.
  */
 

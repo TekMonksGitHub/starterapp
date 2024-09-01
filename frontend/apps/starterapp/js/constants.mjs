@@ -1,10 +1,10 @@
 /* 
  * (C) 2015 TekMonks. All rights reserved.
- * License: MIT - see enclosed license.txt file.
+ * License: See enclosed LICENSE file.
  */
 const FRONTEND = "https://{{{hostname}}}";
 const BACKEND = "https://{{{hostname}}}:9090";
-const APP_NAME = "starterapp";
+const APP_NAME = $$.getRootAppName();
 const APP_PATH = `${FRONTEND}/apps/${APP_NAME}`;
 
 export const APP_CONSTANTS = {

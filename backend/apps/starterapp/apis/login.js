@@ -1,5 +1,8 @@
-/* 
+/**
+ * The login API.
+ *  
  * (C) 2015 TekMonks. All rights reserved.
+ * License: See enclosed LICENSE file.
  */
 const userid = require(`${__dirname}/lib/userid.js`);
 

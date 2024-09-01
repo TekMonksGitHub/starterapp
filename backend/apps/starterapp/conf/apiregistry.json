@@ -1,4 +1,5 @@
 {
-    "/apps/starterapp/login" : "/apis/login.js?get=true",
-    "/apps/starterapp/register" : "/apis/register.js"
+    "/apps/{{app}}/login" : "/apis/login.js?get=true",
+    "/apps/{{app}}/register" : "/apis/register.js",
+    "/apps/{{app}}/test" : "/apis/test.js"
 }
