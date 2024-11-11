@@ -14,8 +14,8 @@ export const APP_CONSTANTS = {
 
     // Login constants
     MIN_PASS_LENGTH: 8,
-    API_LOGIN: BACKEND+"/apps/starterapp/login",
-    API_REGISTER: BACKEND+"/apps/starterapp/register",
+    API_LOGIN: BACKEND+`/apps/${APP_NAME}/login`,
+    API_REGISTER: BACKEND+`/apps/${APP_NAME}/register`,
     BCRYPT_SALT: "$2a$10$VFyiln/PpFyZc.ABoi4ppf",
     USERID: "id",
     USER_ROLE: "user",
